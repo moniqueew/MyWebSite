@@ -1,15 +1,12 @@
-/* Плавная прокрутка для навигации */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 70px; /* Отступ под высоту sticky-top navbar */
+    scroll-padding-top: 70px;
 }
 
-/* Настройка цвета основного бренда, если стандартный синий Bootstrap не нравится */
 :root {
-    --bs-primary: #0d6efd; /* Стандартный синий */
+    --bs-primary: #0d6efd;
 }
 
-/* Делаем так, чтобы картинки в карусели не сжимались, а обрезались красиво */
 .carousel-inner .carousel-item img {
     object-fit: cover;
     object-position: center;
